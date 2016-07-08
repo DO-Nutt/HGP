@@ -12,6 +12,8 @@
 		9D5E93021D2F70FD0072EDF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D5E93001D2F70FD0072EDF1 /* Main.storyboard */; };
 		9D5E93041D2F70FD0072EDF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D5E93031D2F70FD0072EDF1 /* Assets.xcassets */; };
 		9D5E93071D2F70FD0072EDF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D5E93051D2F70FD0072EDF1 /* LaunchScreen.storyboard */; };
+		E3C597741D302123002F5630 /* nutts-speedrite-logo-slide.png in Resources */ = {isa = PBXBuildFile; fileRef = E3C597731D302123002F5630 /* nutts-speedrite-logo-slide.png */; };
+		E3C597761D302290002F5630 /* Peanut-Sprite.png in Resources */ = {isa = PBXBuildFile; fileRef = E3C597751D302290002F5630 /* Peanut-Sprite.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		9D5E93031D2F70FD0072EDF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D5E93061D2F70FD0072EDF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9D5E93081D2F70FD0072EDF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3C597731D302123002F5630 /* nutts-speedrite-logo-slide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nutts-speedrite-logo-slide.png"; sourceTree = "<group>"; };
+		E3C597751D302290002F5630 /* Peanut-Sprite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Peanut-Sprite.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +62,9 @@
 				9D5E92FE1D2F70FD0072EDF1 /* ViewController.swift */,
 				9D5E93001D2F70FD0072EDF1 /* Main.storyboard */,
 				9D5E93031D2F70FD0072EDF1 /* Assets.xcassets */,
+				E3C597731D302123002F5630 /* nutts-speedrite-logo-slide.png */,
 				9D5E93051D2F70FD0072EDF1 /* LaunchScreen.storyboard */,
+				E3C597751D302290002F5630 /* Peanut-Sprite.png */,
 				9D5E93081D2F70FD0072EDF1 /* Info.plist */,
 			);
 			path = hiddenGeniusProject;
@@ -124,6 +130,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D5E93071D2F70FD0072EDF1 /* LaunchScreen.storyboard in Resources */,
+				E3C597761D302290002F5630 /* Peanut-Sprite.png in Resources */,
+				E3C597741D302123002F5630 /* nutts-speedrite-logo-slide.png in Resources */,
 				9D5E93041D2F70FD0072EDF1 /* Assets.xcassets in Resources */,
 				9D5E93021D2F70FD0072EDF1 /* Main.storyboard in Resources */,
 			);
@@ -287,6 +295,7 @@
 				9D5E930D1D2F70FD0072EDF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

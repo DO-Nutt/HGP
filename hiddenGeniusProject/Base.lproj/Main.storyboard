@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -17,16 +17,46 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dR0-Pj-F44">
-                                <rect key="frame" x="272" y="232" width="30" height="30"/>
-                                <state key="normal" title="HI "/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="nutts-speedrite-logo-slide.png" translatesAutoresizingMaskIntoConstraints="NO" id="ple-m6-Mur">
+                                <rect key="frame" x="126" y="20" width="348" height="204"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GOt-S8-zHN">
+                                <rect key="frame" x="249" y="322" width="102" height="79"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="Nutt!"/>
+                                <connections>
+                                    <action selector="Nutt:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tye-iR-FAU"/>
+                                </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Peanut-Sprite.png" translatesAutoresizingMaskIntoConstraints="NO" id="aWi-fZ-eyV">
+                                <rect key="frame" x="9" y="409" width="240" height="128"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Peanut-Sprite.png" translatesAutoresizingMaskIntoConstraints="NO" id="AOn-k3-8Yg">
+                                <rect key="frame" x="9" y="191" width="240" height="128"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Peanut-Sprite.png" translatesAutoresizingMaskIntoConstraints="NO" id="q4w-uO-mNG">
+                                <rect key="frame" x="360" y="191" width="240" height="128"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Peanut-Sprite.png" translatesAutoresizingMaskIntoConstraints="NO" id="Zuh-L0-DoK">
+                                <rect key="frame" x="360" y="409" width="240" height="128"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="peanut1" destination="q4w-uO-mNG" id="bdx-iu-fjw"/>
+                        <outlet property="peanut2" destination="aWi-fZ-eyV" id="ea4-pU-4dB"/>
+                        <outlet property="peanut3" destination="AOn-k3-8Yg" id="rYN-xt-xFR"/>
+                        <outlet property="peanutNut" destination="q4w-uO-mNG" id="0kx-f3-X0J"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="305" y="387"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Peanut-Sprite.png" width="242" height="244"/>
+        <image name="nutts-speedrite-logo-slide.png" width="500" height="258"/>
+    </resources>
 </document>
